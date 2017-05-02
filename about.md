@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+**AI GUILD** is a small team of researchers working in different sub-fields of AI. This blog is a place to share our work in concise fashion.
