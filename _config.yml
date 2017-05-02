@@ -1,0 +1,58 @@
+
+# SEO settings
+title: "AI "
+title2: "GUILD" # default: ""
+description: "Short posts on A.I."
+keywords: "AI, deep learning, machine learning, NLP, Computer Vision"
+url: http://ai-guild.github.io/# site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-78656027-2
+repo: http://github.com/ai-guild/ai-guild.github.io
+#disqus_shortname: "hnbloggithub"
+#twitter_username: "HeiswayiNrird"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "AI Guild"
+  bio      : "A small team of researchers working in different sub-fields of AI"
+  thumb    : /images/author.jpg
+  email    : suriyadeepan.r@gmail.com
+  url      : http://ai-guild.github.io
+  github   : http://github.com/ai-guild
+  #twitter  : http://twitter.com/HeiswayiNrird
+  #facebook : https://www.facebook.com/heiswayi.nrird
+  #linkedin : http://linkedin.com/in/nrird
+
+# social settings
+og_locale: "en_US"
+#twitter_card: "summary_large_image"
+#twitter_site: "@HeiswayiNrird"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
